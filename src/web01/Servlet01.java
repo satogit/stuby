@@ -18,6 +18,8 @@ public class Servlet01 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.getOutputStream().write("hello".getBytes());
+		response.getOutputStream().write("natsu!".getBytes());
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
